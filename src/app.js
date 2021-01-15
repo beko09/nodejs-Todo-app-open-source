@@ -11,7 +11,8 @@ app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 
 //  port
-const port = process.env.PORT
+const port = process.env.PORT || 6000;
+
 //  listen port
 app.listen(port)
 
