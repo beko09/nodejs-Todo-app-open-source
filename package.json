@@ -7,7 +7,7 @@
     "node": "14.15.1"
   },
   "scripts": {
-    "start": "nodemon src/app.js",
+    "start": "node src/app.js",
     "test": " NODE_ENV=test ||SET \"NODE_ENV=test\" && mocha src/test/*.test.js",
     "test-w": "nodemon --exec   \"npm test\""
   },
