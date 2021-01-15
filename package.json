@@ -8,8 +8,8 @@
   },
   "scripts": {
     "start":"node src/app.js",
-    "test":" NODE_ENV=test ||SET \"NODE_ENV=test\" && mocha src/test/*.test.js",
-    "test-w": "nodemon --exec   \"npm test\""
+    "test":"NODE_ENV=test ||SET \"NODE_ENV=test\" && mocha src/test/*.test.js",
+    "test-w":"node --exec   \"npm test\""
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
